@@ -4,6 +4,10 @@ Full-stack calculator built with a React + TypeScript frontend and a Go backend 
 
 The project supports addition, subtraction, multiplication, division, exponentiation, square root, and percentage calculations. The frontend validates inputs before sending requests, while the backend performs the final validation and returns JSON responses.
 
+## Preview
+
+![Calculator app main screen](docs/images/calculator-home.png)
+
 ## Setup Instructions
 
 ### Prerequisites
