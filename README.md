@@ -63,6 +63,19 @@ cd frontend
 npm run test:coverage
 ```
 
+## Tests and Coverage
+
+Unit tests cover the main backend calculation logic, the HTTP API handlers, and the frontend calculation flow.
+
+- Backend coverage is generated with `go test ./... -coverprofile=coverage.out`.
+- Frontend coverage is generated with `npm run test:coverage`.
+- Current coverage results:
+  - Backend `internal/calculator`: 48.8%
+  - Backend `internal/httpapi`: 79.2%
+  - Frontend overall: 76.63%
+
+The `cmd/api` package is the application entrypoint, so its coverage is expected to be minimal.
+
 ## REST API Examples
 
 ### Health check
